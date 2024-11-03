@@ -41,7 +41,7 @@ This repository includes five Python scripts, each serving a specific purpose in
 
 #### `collect.py`
 
-**Description**: 
+**Description**:  
 This script searches for PNG images within a specified directory and its subdirectories.
 It copies images that match target sizes to a designated destination folder, ensuring no
 filename conflicts by generating unique filenames when necessary.
@@ -50,14 +50,15 @@ filename conflicts by generating unique filenames when necessary.
 
 #### `create_barrels.py`
 
-**Description**:
+**Description**:  
 This script generates barrel icons for various fluids in a game or application using the Python Imaging
 Library (PIL). It creates composite icons for filled and empty barrels based on fluid colors.
+
 ---
 
 #### `crop.py`
 
-**Description**:
+**Description**:  
 This module provides functionality to process PNG images by cropping them into specified parts based on their
 dimensions. It is designed to handle images with specific width-to-height ratios, supporting both 2-part and
 4-part cropping modes.
@@ -66,16 +67,18 @@ dimensions. It is designed to handle images with specific width-to-height ratios
 
 #### `upscale.py`
 
-**Description**:
+**Description**:  
 This module provides functions to rescale images from a specified size to a target size.
 It supports processing individual image files or entire folders containing images.
+
 ---
 
 #### `combine.py`
 
-**Description**:
+**Description**:  
 This script provides functionality to overlay multiple images with optional downscaling.
 It uses the Python Imaging Library (PIL) to manipulate images and combine them into a single output.
+
 ---
 
 ## Contributing
